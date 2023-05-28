@@ -1,0 +1,14 @@
+Iniciar um projeto a partir do template usado nesse projeto
+    dotnet new webapi
+
+Iniciar o projeto
+    dotnet run
+
+Iniciar o projeto e popular o banco de dados
+    dotnet run populate
+
+Iniciar o projeto e reiniciar o server quando houver mudanças nos arquivos
+    dotnet watch
+
+Criar um gitignore para controle de versionamento
+    dotnet new gitignore

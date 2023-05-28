@@ -1,0 +1,14 @@
+Criar um manifest (mapear as ferramentas instaladas)
+    dotnet new tool-manifest 
+
+Baixar a ferramenta
+    dotnet tool install dotnet-ef
+
+Migrar - Esse comando coloca a migração em uma espécie de commit (git)
+    dotnet ef migrations add InitialCreate
+
+Executar a migração - Esse comando de fato aplica as regras definidas na migração para criar/atualizar o banco 
+    dotnet ef database update  
+
+Excluir a migração (undo)
+    dotnet ef migrations remove
